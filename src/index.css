@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/src/assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'IndieFlower';
+  src: url('/src/assets/fonts/IndieFlower-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('/src/assets/fonts/Caveat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AmaticSC';
+  src: url('/src/assets/fonts/AmaticSC-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('/src/assets/fonts/GreatVibes-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Handlee';
+  src: url('/src/assets/fonts/Handlee-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/src/assets/fonts/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('/src/assets/fonts/Righteous-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PoiretOne';
+  src: url('/src/assets/fonts/PoiretOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'CinzelDecorative';
+  src: url('/src/assets/fonts/CinzelDecorative-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'MountainsofChristmas';
+  src: url('/src/assets/fonts/MountainsofChristmas-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/src/assets/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AnonymousPro';
+  src: url('/src/assets/fonts/AnonymousPro-Regular.ttf');
+}
+
+@media only screen and (max-width: 768px) {
+  .hidden-xs-and-down {
+    display: none !important;
+  }
+
+  .hidden-sm-and-up {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hidden-xs-and-down {
+    display: block !important;
+  }
+
+  .hidden-sm-and-up {
+    display: none !important;
+  }
+}
+
+
+.top-menu {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+}
+.color-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.v-list-item__content {
+  padding: 5px 0;
+  
+}
+.v-input__slot {
+  min-height: 50px !important;
+  margin-bottom: 0 !important;
+}
+.v-application .blue-grey.darken-1{
+  background-color: #414042!important;
+    border-color: #414042!important;
+}
+.v-application a {
+  color: #9e2263;
+}
+.v-application .cyan {
+  background-color: #9E2263 !important;
+  border-color: #9E2263 !important;
+}
+.v-btn.v-btn--has-bg {
+  background-color: #9E2263 ;
+  color: #fff !important;
+}
+button.v-btn.v-btn--has-bg {
+  background-color: #9E2263 !important;
+  color: #fff !important;
+}
+.v-application .primary--text {
+  color: #9E2263 !important;
+  caret-color: #9E2263 !important;
+}

@@ -1,0 +1,86 @@
+@import "~vuetify/src/styles/styles.sass";
+
+.programs-page {
+  .page-title {
+    @include media-breakpoint-up(sm) {
+      padding-bottom: 0;
+    }
+  }
+
+  table {
+    // width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+  }
+
+  h2 {
+    color: lightgray;
+  }
+
+  v-text-field {
+    min-height: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: dimgrey;
+  }
+
+  .apexcharts-legend-series {
+    padding: 2px 5px 3px;
+    display: flex;
+    align-items: center;
+
+    .apexcharts-legend-marker {
+      margin-right: 8px;
+    }
+  }
+
+  .main-chart-select {
+    font-size: 1rem;
+    margin-right: 10px;
+
+    fieldset {
+      border-width: 1px !important;
+    }
+  }
+
+  .v-card {
+    .v-card__text {
+      .subtext {
+        font-size: 1.142rem;
+        font-weight: 400;
+      }
+
+      .subtext-index {
+        font-size: 11px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .support-requests {
+    .v-data-table__wrapper {
+      thead tr th {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.v-menu__content {
+
+  .v-list-item__content .v-list-item__title {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
